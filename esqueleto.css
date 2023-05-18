@@ -1,0 +1,88 @@
+header {
+  display:block;
+  padding:10px 0px;
+  border: 2px solid black;
+}
+
+.container-nav {
+  padding: 10px;
+  border: 2px solid black;
+}
+section {
+  width: 79%;
+  background: #ccc;
+  float: left;
+  overflow: auto;
+  padding-bottom: 50px;
+  padding-top:20px;
+}
+aside {
+  float: right;
+  border: 1px solid red;
+  width: 19%;
+  
+  /*Si quisieramos ocultar el contenido relacionado pondriamos visibility a hidden*/
+  /*visibility: hidden;*/
+}
+footer {
+  position: relative;
+  margin-top: -50px;
+  height: 40px; 
+  padding:5px 0px;
+  clear: both;
+  background: #286af0;
+  text-align: center;
+  color: #fff;
+}
+.navbar {
+  justify-content: space-between;
+  width: 100%;
+}
+
+.container {
+  padding: 50px;
+  border: 2px solid black;
+}
+
+.container aside {
+  padding: 10px;
+  border: 2px solid black;
+}
+
+
+.container footer {
+  padding: 10px;
+  border: 2px solid black;
+
+}
+
+.container section {
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.container article {
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.container .color {
+  color: red;
+}
+
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  padding: 10px;
+  margin: 20px;
+}
+
+@media (max-width: 768px) {
+  .column {
+    flex: 100%;
+  }
+
+
+  .nav-links {
+    display: none;
+  }
